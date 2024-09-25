@@ -120,7 +120,6 @@ void displayBoard(int size, int board[size][size]) {
 }
 
 // Main game logic
-// Main game logic
 void playSudoku(int size, int board[size][size], int solution[size][size]) {
     int x, y, value, health = MAX_HEALTH;
     while (health > 0) {
